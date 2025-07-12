@@ -21,7 +21,7 @@
     "logger"
   ],
   "author": "Eric Santos",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^5.8.3"
   }
