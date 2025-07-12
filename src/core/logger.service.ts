@@ -4,7 +4,7 @@ export class Logger implements LoggerContract {
     private readonly levels: LogLevel[] = ['verbose', 'info', 'warn', 'error'];
 
     constructor(
-        private level: LogLevel = 'info'
+        private readonly level: LogLevel = 'info'
     ) {}
 
     private log(message: string, level: LogLevel): void {
