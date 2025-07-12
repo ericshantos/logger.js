@@ -2,20 +2,12 @@ import type { LogLevel, LoggerContract } from "./contracts/logger.contract";
 import { LogOutput } from "./contracts/log-output.contract";
 
 export class Logger implements LoggerContract {
-    private readonly levels: LogLevel[] = ['error', 'info', 'verbose', 'warn'];
+    private readonly levels: LogLevel[] = ['verbose', 'info', 'warn', 'error'];
 
     constructor(
         private level: LogLevel = 'info',
         private readonly output: LogOutput
     ) {}
-
-    private setLevel(level: LogLevel): void {
-        if (this.levels.includes(level)) {
-            this.level = level
-        } else {
-            console.log(`[WARN] Unknown logging level: ${level}`);
-        }
-    }
 
     private log(message: string, level: LogLevel): void {
         const current = this.levels.indexOf(this.level);
