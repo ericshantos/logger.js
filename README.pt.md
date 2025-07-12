@@ -1,3 +1,5 @@
+[🇬🇧] Read in English
+
 # Logger.js  
 
 [![Licença: MIT](https://img.shields.io/badge/Licen%C3%A7a-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

@@ -1,6 +1,6 @@
 {
   "name": "@ericshantos/logger",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A flexible and extensible TypeScript logger package based on the hexagonal architecture, with support for multiple output adapters, including console and files.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,5 +24,8 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@ericshantos/logger": "^1.0.1"
   }
 }
