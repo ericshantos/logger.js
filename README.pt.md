@@ -1,4 +1,4 @@
-[🇬🇧] Read in English
+[🇬🇧] [Read in English](./README.md)
 
 # Logger.js  
 

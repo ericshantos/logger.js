@@ -1,4 +1,4 @@
-[🇧🇷] [Lê em português](README.pt.md)
+[🇧🇷] [Lê em português](./README.pt.md)
 
 # Logger.js
 
